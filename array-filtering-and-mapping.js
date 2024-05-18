@@ -6,7 +6,7 @@ const people = [
   { name: "Evan", age: 60, gender: "male" },
 ];
 
-function filterFemales(people) {
+function getFilteredNames(people) {
   if (!Array.isArray(people) || !people.length) {
     return console.log("Please provide a valid argument.");
   }
@@ -18,4 +18,4 @@ function filterFemales(people) {
   console.log(names);
 }
 
-filterFemales(people);
+getFilteredNames(people);
