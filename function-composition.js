@@ -1,6 +1,6 @@
 function getSquared(number) {
   if (typeof number !== "number") {
-    return console.log("Please provide a valid number.");
+    return console.log("Please send a valid number.");
   }
 
   return number * number;
@@ -8,7 +8,7 @@ function getSquared(number) {
 
 function getDoubled(number) {
   if (typeof number !== "number") {
-    return console.log("Please provide a valid number.");
+    return console.log("Please send a valid number.");
   }
 
   return number + number;
@@ -16,18 +16,18 @@ function getDoubled(number) {
 
 function addFive(number) {
   if (typeof number !== "number") {
-    return console.log("Please provide a valid number.");
+    return console.log("Please send a valid number.");
   }
 
   return number + 5;
 }
 
-function getSum(number) {
+function getTotal(number) {
   if (typeof number !== "number") {
-    return console.log("Please provide a valid number.");
+    return console.log("Please send a valid number.");
   }
 
   return addFive(getDoubled(getSquared(number)));
 }
 
-console.log(getSum(6));
+console.log(getTotal(6));

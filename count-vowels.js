@@ -1,8 +1,8 @@
-function getVowelsCount(text) {
+function getVowelsTotal(text) {
   const VOWELS = ["a", "e", "i", "o", "u"];
 
   if (typeof text !== "string") {
-    return console.log("Please provide a valid number.");
+    return console.log("Please send a valid number.");
   }
 
   const filteredVowels = text
@@ -13,4 +13,4 @@ function getVowelsCount(text) {
   return filteredVowels.length;
 }
 
-console.log(getVowelsCount("Happy New Year"));
+console.log(getVowelsTotal("Happy New Year"));

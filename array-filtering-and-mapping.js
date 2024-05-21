@@ -1,14 +1,14 @@
 const people = [
-  { name: "Alice", age: 30, gender: "female" },
-  { name: "Bob", age: 25, gender: "male" },
-  { name: "Charlie", age: 42, gender: "non-binary" },
-  { name: "Diana", age: 18, gender: "female" },
-  { name: "Evan", age: 60, gender: "male" },
+  { name: "Jerin", age: 20, gender: "female" },
+  { name: "Emon", age: 21, gender: "male" },
+  { name: "Sijun", age: 38, gender: "non-binary" },
+  { name: "Sumi", age: 16, gender: "female" },
+  { name: "Shakib", age: 50, gender: "male" },
 ];
 
 function getFilteredNames(people) {
   if (!Array.isArray(people) || !people.length) {
-    return console.log("Please provide a valid argument.");
+    return console.log("Please send a valid argument.");
   }
 
   const names = people
